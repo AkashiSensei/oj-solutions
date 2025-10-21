@@ -3,6 +3,7 @@ Personal practice record.
 
 * With no background in competitions or experience in solving programming problems, but still need to work hard on practice for job hunting.
 * Welcome all experts to offer guidance.
+* Only know C, no C++, but I'll learn it.
 
 ## Related to
 
