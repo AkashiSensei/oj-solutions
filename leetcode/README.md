@@ -26,6 +26,7 @@ measured value and the second line is the analyzed complexity. For islands,
 | 200. Number of Islands | [200-bfs.cpp](200-bfs.cpp) — BFS with a set of unvisited land | C++ | Accepted | 77<br>O(mn + L log L) | 5.05% | 28.64<br>O(L) | 5.01% |
 | 200. Number of Islands | [200-dfs.cpp](200-dfs.cpp) — Iterative DFS with in-place marking | C++ | Accepted | 23<br>O(mn) | 90.85% | 17.01<br>O(L) | 28.20% |
 | 200. Number of Islands | [200-dsu.cpp](200-dsu.cpp) — Union-find by size on adjacent land | C++ | Accepted | 30<br>O(mn α(mn)) | 48.88% | 18.55<br>O(mn) | 19.61% |
+| 200. Number of Islands | [200-dsu-id.cpp](200-dsu-id.cpp) — Union-find by size with packed coordinates | C++ | Accepted | 30<br>O(mn α(mn)) | 48.88% | 17.54<br>O(mn) | 24.50% |
 
 ## Recording rules
 
