@@ -8,3 +8,7 @@ Personal practice record.
 ## Related to
 
 * https://codeforces.com/profile/AkashiSensei
+
+## LeetCode solutions
+
+[Implementation index and submission records](leetcode/README.md): runtime, memory, beat percentages, and source submissions for each implementation.

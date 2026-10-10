@@ -5,6 +5,17 @@
  * Problem Tags: array, two pointers, dynamic programming, stack,
  * monotonic stack
  *
+ * Submission Record:
+ * Approach: Two pointers comparing boundary heights
+ * Language: Go
+ * Status: Accepted
+ * Submitted At: 2026-10-03 14:52 (Asia/Shanghai)
+ * Runtime: 0 ms (beats 100.00%)
+ * Memory: 7.89 MB (beats 15.19%)
+ * Submission Link:
+ * https://leetcode.cn/problems/trapping-rain-water/submissions/752590689/
+ * Recorded On: 2026-10-10
+ *
  * Problem Description:
  * Given n non-negative integers representing an elevation map where the
  * width of each bar is 1, compute how much water it can trap after

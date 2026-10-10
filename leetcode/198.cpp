@@ -4,6 +4,17 @@
  * Difficulty: Medium
  * Problem Tags: array, dynamic programming
  *
+ * Submission Record:
+ * Approach: Dynamic programming with rolling states
+ * Language: C++
+ * Status: Accepted
+ * Submitted At: 2026-10-09 15:35 (Asia/Shanghai)
+ * Runtime: 0 ms (beats 100.00%)
+ * Memory: 9.78 MB (beats 99.39%)
+ * Submission Link:
+ * https://leetcode.cn/problems/house-robber/submissions/753639575/
+ * Recorded On: 2026-10-10
+ *
  * Problem Description:
  * You are a robber planning to rob houses along a street. Each house
  * has some money. Adjacent houses share a security system: if two

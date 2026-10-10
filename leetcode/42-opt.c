@@ -5,6 +5,17 @@
  * Problem Tags: array, two pointers, dynamic programming, stack,
  * monotonic stack
  *
+ * Submission Record:
+ * Approach: Two pointers comparing running maxima
+ * Language: C
+ * Status: Accepted
+ * Submitted At: 2026-10-02 21:34 (Asia/Shanghai)
+ * Runtime: 0 ms (beats 100.00%)
+ * Memory: 10.25 MB (beats 73.59%)
+ * Submission Link:
+ * https://leetcode.cn/problems/trapping-rain-water/submissions/752514017/
+ * Recorded On: 2026-10-10
+ *
  * Problem Description:
  * Given n non-negative integers representing an elevation map where the
  * width of each bar is 1, compute how much water it can trap after

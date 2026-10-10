@@ -5,6 +5,17 @@
  * Problem Tags: array, depth-first search, breadth-first search,
  * union find, matrix
  *
+ * Submission Record:
+ * Approach: Iterative DFS with in-place marking
+ * Language: C++
+ * Status: Accepted
+ * Submitted At: 2026-10-10 12:44 (Asia/Shanghai)
+ * Runtime: 23 ms (beats 90.85%)
+ * Memory: 17.01 MB (beats 28.20%)
+ * Submission Link:
+ * https://leetcode.cn/problems/number-of-islands/submissions/753825122/
+ * Recorded On: 2026-10-10
+ *
  * Problem Description:
  * Given an m x n grid containing '1' (land) and '0' (water), count
  * its islands. An island consists of land cells connected horizontally

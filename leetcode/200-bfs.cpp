@@ -5,6 +5,17 @@
  * Problem Tags: array, depth-first search, breadth-first search,
  * union find, matrix
  *
+ * Submission Record:
+ * Approach: BFS with a set of unvisited land
+ * Language: C++
+ * Status: Accepted
+ * Submitted At: 2026-10-10 12:16 (Asia/Shanghai)
+ * Runtime: 77 ms (beats 5.05%)
+ * Memory: 28.64 MB (beats 5.01%)
+ * Submission Link:
+ * https://leetcode.cn/problems/number-of-islands/submissions/753821806/
+ * Recorded On: 2026-10-10
+ *
  * Problem Description:
  * Given an m x n grid containing '1' (land) and '0' (water), count
  * its islands. An island consists of land cells connected horizontally
