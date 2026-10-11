@@ -1,9 +1,10 @@
 # LeetCode Solutions
 
 Initial records were captured on **2026-10-10** from the signed-in LeetCode CN
-submission-detail pages. The LC 3 record was added on **2026-10-11** from a
-user-provided accepted-submission screenshot; its submission time and link
-are unavailable and recorded as `N/A` in the source comment.
+submission-detail pages. The LC 3 and LC 739 records were added on
+**2026-10-11** from user-provided accepted-submission screenshots; their
+submission times and links are unavailable and recorded as `N/A` in the
+source comments.
 Accepted rows follow submission order, oldest first, to show the progression
 of approaches and optimizations. Only completed, accepted implementations are listed.
 Submission timestamps remain in source comments (Asia/Shanghai).
@@ -18,10 +19,12 @@ not the rounded submission list.
 Each source file also contains a matching English `Submission Record` in its
 problem-header comment. In the Runtime and Memory cells, the first line is the
 measured value and the second line is the analyzed complexity. For islands,
-`m` and `n` are the grid dimensions and `L` is the number of land cells. For string
-problems, `n` is the string length. Space complexity describes auxiliary
+`m` and `n` are the grid dimensions and `L` is the number of land cells. For
+one-dimensional array and string problems, `n` is the input length.
+Space complexity describes auxiliary
 storage excluding input copies; LC 3 takes its string by value, so an
-lvalue call also creates an O(n) input copy, as noted in its source comment.
+lvalue call also creates an O(n) input copy, as noted in its source comment. LC 739
+uses O(n) auxiliary stack space, excluding its O(n) returned answer array.
 
 | Problem | Implementation | Language | Status | Runtime (ms) | Runtime beats | Memory (MB) | Memory beats |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: |
@@ -35,6 +38,7 @@ lvalue call also creates an O(n) input copy, as noted in its source comment.
 | 200. Number of Islands | [200-dsu.cpp](200-dsu.cpp) — Union-find by size on adjacent land | C++ | Accepted | 30<br>O(mn α(mn)) | 48.88% | 18.55<br>O(mn) | 19.61% |
 | 200. Number of Islands | [200-dsu-id.cpp](200-dsu-id.cpp) — Union-find by size with packed coordinates | C++ | Accepted | 30<br>O(mn α(mn)) | 48.88% | 17.54<br>O(mn) | 24.50% |
 | 3. Longest Substring Without Repeating Characters | [3.cpp](3.cpp) — Sliding window with last-seen character indices | C++ | Accepted | 7<br>O(n) | 90.94% | 18.45<br>O(1) | 67.25% |
+| 739. Daily Temperatures | [739.cpp](739.cpp) — Monotonic stack of unresolved days and temperatures | C++ | Accepted | 27<br>O(n) | 55.13% | 109.27<br>O(n) | 6.81% |
 
 ## Recording rules
 
