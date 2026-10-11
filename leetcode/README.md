@@ -24,7 +24,9 @@ one-dimensional array and string problems, `n` is the input length.
 Space complexity describes auxiliary
 storage excluding input copies; LC 3 takes its string by value, so an
 lvalue call also creates an O(n) input copy, as noted in its source comment. LC 739
-uses O(n) auxiliary stack space, excluding its O(n) returned answer array.
+uses up to O(n) stack entries, excluding its O(n) returned answer array.
+For `739-array.cpp`, `C = 100005` is the fixed global stack capacity: the
+buffer reserves O(C) auxiliary storage even when only O(n) entries are used.
 
 | Problem | Implementation | Language | Status | Runtime (ms) | Runtime beats | Memory (MB) | Memory beats |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: |
@@ -39,6 +41,7 @@ uses O(n) auxiliary stack space, excluding its O(n) returned answer array.
 | 200. Number of Islands | [200-dsu-id.cpp](200-dsu-id.cpp) — Union-find by size with packed coordinates | C++ | Accepted | 30<br>O(mn α(mn)) | 48.88% | 17.54<br>O(mn) | 24.50% |
 | 3. Longest Substring Without Repeating Characters | [3.cpp](3.cpp) — Sliding window with last-seen character indices | C++ | Accepted | 7<br>O(n) | 90.94% | 18.45<br>O(1) | 67.25% |
 | 739. Daily Temperatures | [739.cpp](739.cpp) — Monotonic stack of unresolved days and temperatures | C++ | Accepted | 27<br>O(n) | 55.13% | 109.27<br>O(n) | 6.81% |
+| 739. Daily Temperatures | [739-array.cpp](739-array.cpp) — Array-backed monotonic stack of day-temperature records | C++ | Accepted | 15<br>O(n) | 94.54% | 101.37<br>O(C) reserved | 84.67% |
 
 ## Recording rules
 
