@@ -4,9 +4,9 @@ Initial records were captured on **2026-10-10** from the signed-in LeetCode CN
 submission-detail pages. The LC 3 and LC 739 records were added on
 **2026-10-11** from user-provided accepted-submission screenshots; their
 submission times and links are unavailable and recorded as `N/A` in the
-source comments. The LC 146 record was added on **2026-10-12** from a
-user-provided accepted-submission screenshot; its submission time and link
-are likewise recorded as `N/A`.
+source comments. The LC 146 array and STL records were added on
+**2026-10-12** from user-provided accepted-submission screenshots; their
+submission times and links are likewise recorded as `N/A`.
 Accepted rows follow submission order, oldest first, to show the progression
 of approaches and optimizations. Only completed, accepted implementations are listed.
 Submission timestamps remain in source comments (Asia/Shanghai).
@@ -31,11 +31,15 @@ For `739-array.cpp` and `739-array-day.cpp`, `C = 100005` is the fixed
 global stack capacity: each buffer reserves O(C) auxiliary storage even
 when only O(n) entries are used. The former stores two integers per entry;
 the latter stores only the day index.
-For LC 146, `U = 10001` is the direct-address table length and `C = 3001`
+For `146.cpp`, `U = 10001` is the direct-address table length and `C = 3001`
 is the reserved list-slot count. Each cache object reserves O(U + C) storage
 and takes O(U + C) construction time to zero-initialize its arrays. Each
 `get` and `put` takes O(1) worst-case time; q operations including construction
 take O(U + C + q). The arrays are per-instance members, not shared globals.
+For `146-stl.cpp`, `c` is the configured capacity. The unordered map and list
+use O(c) auxiliary space. Each get/put takes average/amortized O(1) time,
+with O(c) worst-case time; moving an existing list node with splice is O(1)
+and preserves its iterator. Empty-container construction takes O(1) time.
 
 | Problem | Implementation | Language | Status | Runtime (ms) | Runtime beats | Memory (MB) | Memory beats |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: |
@@ -53,6 +57,7 @@ take O(U + C + q). The arrays are per-instance members, not shared globals.
 | 739. Daily Temperatures | [739-array.cpp](739-array.cpp) — Array-backed monotonic stack of day-temperature records | C++ | Accepted | 15<br>O(n) | 94.54% | 101.37<br>O(C) reserved | 84.67% |
 | 739. Daily Temperatures | [739-array-day.cpp](739-array-day.cpp) — Array-backed monotonic stack of day indices | C++ | Accepted | 18<br>O(n) | 88.65% | 101.01<br>O(C) reserved | 84.77% |
 | 146. LRU Cache | [146.cpp](146.cpp) — Direct-address table + array-backed doubly-linked list | C++ | Accepted | 7<br>O(1) per get/put | 97.05% | 48.34<br>O(U + C) reserved | 47.97% |
+| 146. LRU Cache | [146-stl.cpp](146-stl.cpp) — Unordered map + STL list of keys | C++ | Accepted | 19<br>O(1) average/amortized per get/put | 65.71% | 46.97<br>O(c) | 74.77% |
 
 ## Recording rules
 
