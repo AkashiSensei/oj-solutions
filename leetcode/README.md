@@ -39,6 +39,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 743. Network Delay Time | [743-heap-ref.cpp](743-heap-ref.cpp) — Min-heap Dijkstra with reference-based adjacency construction | C++ | Accepted | 88<br>O(V + E log E) | 45.83% | 45.45<br>O(V + E) | 17.26% |
 | 39. Combination Sum | [39.cpp](39.cpp) — Memoized prefix/target DP storing all combinations | C++ | Accepted | 8<br>O(nT(L + 1) + S) | 14.87% | 19.46<br>O(nT + S) | 8.18% |
 | 39. Combination Sum | [39-dfs.cpp](39-dfs.cpp) — DFS backtracking with nondecreasing candidate indices | C++ | Accepted | 3<br>O(N + n^(L+1) + RL), n ≥ 2 | 63.74% | 14.44<br>O(n + L + RL) | 28.77% |
+| 56. Merge Intervals | [56.cpp](56.cpp) — Sort by start endpoint + linear merge scan | C++ | Accepted | 3<br>O(n log n) | 92.61% | 23.31<br>O(log n), excluding output | 75.37% |
 
 ## Recording rules
 
