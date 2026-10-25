@@ -42,6 +42,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 56. Merge Intervals | [56.cpp](56.cpp) — Sort by start endpoint + linear merge scan | C++ | Accepted | 3<br>O(n log n) | 92.61% | 23.31<br>O(log n), excluding output | 75.37% |
 | 105. Construct Binary Tree from Preorder and Inorder Traversal | [105.cpp](105.cpp) — Recursive range splitting + inorder-index hash table | C++ | Accepted | 0<br>O(n) average/amortized | 100.00% | 26.96<br>O(n), excluding output | 46.91% |
 | 236. Lowest Common Ancestor of a Binary Tree | [236.cpp](236.cpp) — Postorder DFS with boolean subtree-presence flags | C++ | Accepted | 79<br>O(n) | 27.59% | 41.54<br>O(h) | 97.64% |
+| 208. Implement Trie (Prefix Tree) | [208.cpp](208.cpp) — Pointer-based trie with 26 child slots and word-end flags | C++ | Accepted | 31<br>O(L) per operation | 49.84% | 49.45<br>O(P + L), including argument copy | 66.78% |
 
 ## Recording rules
 
