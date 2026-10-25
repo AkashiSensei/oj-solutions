@@ -41,6 +41,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 39. Combination Sum | [39-dfs.cpp](39-dfs.cpp) — DFS backtracking with nondecreasing candidate indices | C++ | Accepted | 3<br>O(N + n^(L+1) + RL), n ≥ 2 | 63.74% | 14.44<br>O(n + L + RL) | 28.77% |
 | 56. Merge Intervals | [56.cpp](56.cpp) — Sort by start endpoint + linear merge scan | C++ | Accepted | 3<br>O(n log n) | 92.61% | 23.31<br>O(log n), excluding output | 75.37% |
 | 105. Construct Binary Tree from Preorder and Inorder Traversal | [105.cpp](105.cpp) — Recursive range splitting + inorder-index hash table | C++ | Accepted | 0<br>O(n) average/amortized | 100.00% | 26.96<br>O(n), excluding output | 46.91% |
+| 236. Lowest Common Ancestor of a Binary Tree | [236.cpp](236.cpp) — Postorder DFS with boolean subtree-presence flags | C++ | Accepted | 79<br>O(n) | 27.59% | 41.54<br>O(h) | 97.64% |
 
 ## Recording rules
 
