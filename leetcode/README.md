@@ -44,6 +44,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 236. Lowest Common Ancestor of a Binary Tree | [236.cpp](236.cpp) — Postorder DFS with boolean subtree-presence flags | C++ | Accepted | 79<br>O(n) | 27.59% | 41.54<br>O(h) | 97.64% |
 | 208. Implement Trie (Prefix Tree) | [208.cpp](208.cpp) — Pointer-based trie with 26 child slots and word-end flags | C++ | Accepted | 31<br>O(L) per operation | 49.84% | 49.45<br>O(P + L), including argument copy | 66.78% |
 | 33. Search in Rotated Sorted Array | [33.cpp](33.cpp) — lower_bound with a pivot-based virtual ordering | C++ | Accepted | 0<br>O(log n) | 100.00% | 15.04<br>O(1) | 20.19% |
+| 560. Subarray Sum Equals K | [560.cpp](560.cpp) — Running prefix sum + hash-table frequency counting | C++ | Accepted | 55<br>O(n) average/amortized | 34.67% | 49.82<br>O(n) | 15.98% |
 
 ## Recording rules
 
