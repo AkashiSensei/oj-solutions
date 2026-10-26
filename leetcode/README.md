@@ -48,6 +48,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 227. Basic Calculator II | [227.cpp](227.cpp) — sscanf tokenization + completed-term sum and current term | C++ | Accepted | 351<br>O(n²) with glibc suffix scans | 5.22% | 11.91<br>O(1), excluding input copy | 96.39% |
 | 416. Partition Equal Subset Sum | [416.cpp](416.cpp) — Bottom-up 0/1 subset-sum DP with a 2D boolean table | C++ | Accepted | 179<br>O(nT) | 9.57% | 17.01<br>O(nT) | 35.93% |
 | 416. Partition Equal Subset Sum | [416-memo.cpp](416-memo.cpp) — Top-down subset-sum recursion with result and visited tables | C++ | Accepted | 87<br>O(nT) | 55.65% | 20.89<br>O(nT) | 19.77% |
+| 300. Longest Increasing Subsequence | [300.cpp](300.cpp) — Bottom-up DP by subsequence ending index | C++ | Accepted | 87<br>O(n²) | 37.46% | 14.15<br>O(n) | 40.73% |
 
 ## Recording rules
 
