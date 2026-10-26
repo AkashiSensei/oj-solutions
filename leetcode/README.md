@@ -46,6 +46,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 33. Search in Rotated Sorted Array | [33.cpp](33.cpp) — lower_bound with a pivot-based virtual ordering | C++ | Accepted | 0<br>O(log n) | 100.00% | 15.04<br>O(1) | 20.19% |
 | 560. Subarray Sum Equals K | [560.cpp](560.cpp) — Running prefix sum + hash-table frequency counting | C++ | Accepted | 55<br>O(n) average/amortized | 34.67% | 49.82<br>O(n) | 15.98% |
 | 227. Basic Calculator II | [227.cpp](227.cpp) — sscanf tokenization + completed-term sum and current term | C++ | Accepted | 351<br>O(n²) with glibc suffix scans | 5.22% | 11.91<br>O(1), excluding input copy | 96.39% |
+| 416. Partition Equal Subset Sum | [416.cpp](416.cpp) — Bottom-up 0/1 subset-sum DP with a 2D boolean table | C++ | Accepted | 179<br>O(nT) | 9.57% | 17.01<br>O(nT) | 35.93% |
 
 ## Recording rules
 
