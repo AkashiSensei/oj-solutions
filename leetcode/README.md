@@ -50,6 +50,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 416. Partition Equal Subset Sum | [416-memo.cpp](416-memo.cpp) — Top-down subset-sum recursion with result and visited tables | C++ | Accepted | 87<br>O(nT) | 55.65% | 20.89<br>O(nT) | 19.77% |
 | 300. Longest Increasing Subsequence | [300.cpp](300.cpp) — Bottom-up DP by subsequence ending index | C++ | Accepted | 87<br>O(n²) | 37.46% | 14.15<br>O(n) | 40.73% |
 | 55. Jump Game | [55.cpp](55.cpp) — Greedy forward scan tracking the farthest reachable index | C++ | Accepted | 0<br>O(n) | 100.00% | 51.21<br>O(1) | 56.81% |
+| 15. 3Sum | [15.cpp](15.cpp) — Sort + two pointers with duplicate-value skipping | C++ | Accepted | 59<br>O(n²) | 40.76% | 28.42<br>O(log n), excluding output | 75.59% |
 
 ## Recording rules
 
