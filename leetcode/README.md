@@ -53,6 +53,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 15. 3Sum | [15.cpp](15.cpp) — Sort + two pointers with duplicate-value skipping | C++ | Accepted | 59<br>O(n²) | 40.76% | 28.42<br>O(log n), excluding output | 75.59% |
 | 142. Linked List Cycle II | [142.cpp](142.cpp) — Hash-table tracking of visited node pointers | C++ | Accepted | 19<br>O(n) average/amortized | 6.10% | 13.50<br>O(n) | 5.02% |
 | 142. Linked List Cycle II | [142-floyd.cpp](142-floyd.cpp) — Floyd cycle detection + equal-speed entry search | C++ | Accepted | 3<br>O(n) | 99.01% | 11.19<br>O(1) | 55.89% |
+| 239. Sliding Window Maximum | [239.cpp](239.cpp) — Monotonic deque of candidate indices | C++ | Accepted | 39<br>O(n) | 33.28% | 136.05<br>O(k), excluding output | 54.48% |
 
 ## Recording rules
 
