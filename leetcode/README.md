@@ -54,6 +54,7 @@ Runtime and memory cells show the measured value followed by the analyzed comple
 | 142. Linked List Cycle II | [142.cpp](142.cpp) — Hash-table tracking of visited node pointers | C++ | Accepted | 19<br>O(n) average/amortized | 6.10% | 13.50<br>O(n) | 5.02% |
 | 142. Linked List Cycle II | [142-floyd.cpp](142-floyd.cpp) — Floyd cycle detection + equal-speed entry search | C++ | Accepted | 3<br>O(n) | 99.01% | 11.19<br>O(1) | 55.89% |
 | 239. Sliding Window Maximum | [239.cpp](239.cpp) — Monotonic deque of candidate indices | C++ | Accepted | 39<br>O(n) | 33.28% | 136.05<br>O(k), excluding output | 54.48% |
+| 124. Binary Tree Maximum Path Sum | [124.cpp](124.cpp) — Postorder DFS with one-branch gains and complete-path maxima | C++ | Accepted | 0<br>O(n) | 100.00% | 27.32<br>O(h) | 62.93% |
 
 ## Recording rules
 
